@@ -1,0 +1,416 @@
+<html>
+
+<head>
+    <title>myEasyConnect</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link href="media.css" media="all  " rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <div class="header">
+        <a id="logo-header" href="#">
+            <img id="logo" src="IMG/logo-easy-connect_SBS.png" height="80%" />
+        </a>
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <img id="señora" src="Images/senior.png" alt="perfil" />
+                    <p>Cordelia Carpenter</p>
+                </li>
+                <li>
+                    <img id="ajustes" src="Images/config.png" alt="ajustes" />
+                </li>
+                <li>
+                    <img id="dot3" src="Images/dot3.png" alt="menu" />
+                </li>
+                <li>
+                    <img id="logout" src="Images/logout.png" />
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <hr>
+
+    <div class="contenedor">
+        <div class="carta">
+            <img id="fotoMenu" src="Images/Layer 2.png" />
+            <img class="numero" src="Images/Ellipse 1.png" />
+            <p>2</p>
+            <img id="logoCarta" src="Images/warnings-off2.png" />
+            <h3>
+                ALERTS AND MESSAGING</h3>
+            <img class="menu" src="Images/Layer 3.png" />
+        </div>
+        <div class="carta">
+            <img id="fotoMenu" src="Images/Layer 2.png" align="left" />
+            <img class="numero" src="Images/Ellipse 1.png" />
+            <p>1</p>
+            <img id="logoCarta" src="Images/reminders-calendar.png" />
+            <h3>REMINDERS CALENDAR</h3>
+            <img class="menu" src="Images/Layer 3.png" />
+
+        </div>
+        <div class="carta">
+            <img id="fotoMenu" src="Images/Layer 2.png" align="left" />
+            <img class="numero" src="Images/Ellipse 1.png" />
+            <p>2</p>
+            <img id="logoCarta" src="Images/ties2.png" />
+            <h3>CIRCLE OF CARE</h3>
+            <img class="menu" src="Images/Layer 3.png" />
+
+        </div>
+        <div class="carta">
+            <img id="fotoMenu" src="Images/Layer 2.png" align="left" />
+            <img class="numero" src="Images/Ellipse 1.png" />
+            <p>1</p>
+            <img id="logoCarta" src="Images/daily-care-o-gram.png" />
+            <h3>
+                DAILY CARE-O-GRAM</h3>
+            <img class="menu" src="Images/Layer 3.png" />
+
+        </div>
+        <div class="carta">
+            <img id="fotoMenu" src="Images/Layer 2.png" align="left" />
+
+            <img id="logoCarta" src="Images/casemanager.png" />
+            <h3>REPOSITORY</h3>
+            <img class="menu" src="Images/Layer 3.png" />
+
+        </div>
+        <div class="carta">
+            <img id="fotoMenu" src="Images/Layer 2.png" align="left" />
+
+            <img id="logoCarta" src="Images/my-health-reports (1).png" />
+            <h3>REPORTS</h3>
+            <img class="menu" src="Images/Layer 3.png" />
+
+        </div>
+        <div class="especial">
+            <div class="carta">
+                <img id="fotoMenu" src="Images/Layer 2.png" align="left" />
+
+                <img id="logoCarta" src="Images/reward-points.png" />
+                <h3>MY POINTS</h3>
+                <img class="menu" src="Images/Layer 3.png" />
+                <div class="points">
+                    <h5>Total Points 725</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="separador">
+        <div class="leftCalendar">
+            <img src="Images/warnings-off2.png" />
+            <h2>ALERTS AND MESSAGING</h2>
+        </div>
+    </div>
+
+    <div class="contenedorCalendario">
+        <div class="panel">
+            <nav>
+                <ul>
+                    <li id="checkboxs">
+                        <input type="checkbox" style="border:0px;">
+                    </li>
+                    <li class="rojo">
+                        <p>New Message</p>
+                    </li>
+                    <li class="blanco" style="border:0px;">
+                        <p>Inbox</p>
+                    </li>
+                    <li class="gris">
+                        <p>Sent</p>
+                    </li>
+                    <li id="buscador">
+                        <input type="text" placeholder="Search" />
+                        <i id="lupa" class='material-icons'>search</i>
+                    </li>
+                </ul>
+            </nav>
+            <div class="mensajes">
+                <div class="correos" id="correos1">
+                    <p>
+                        <input type="checkbox" />
+                        <img class="ellipse" src="Images/Ellipse 1.png" width="20px" />Jhon Snow
+                        <span class="Asunto">Hi friend</span>
+                        <span class="fecha">
+                            12 April 2014
+                            <i id="primero" class="material-icons">expand_more</i>
+                        </span>
+                        </span>
+                    </p>
+                    <div class="email1" id="email1">
+                        <div class="texto">
+                            <h4>Hi Friend!!</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus, tortor ut porta dignissim,
+                                neque mauris maximus elit, a porta neque velit non neque. Fusce nec orci massa. Etiam metus
+                                nisi, bibendum et orci non, blandit ultricies arcu. Fusce tempor ullamcorper leo quis sollicitudin.
+                                Nulla et eros nibh. Etiam fringilla sit amet massa sed vulputate. Donec arcu est, vestibulum
+                                vitae tempus vel, facilisis in sem. Donec erat lectus, pellentesque sit amet hendrerit in,
+                                facilisis eu massa.
+                            </p>
+                                <div class="reply">
+                                    <p>REPLY</p>
+                                </div>
+                                <div class="delete" id="delFirst">
+                                    <p>DELETE</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="correos" id="correos2">
+                    <p>
+                        <input type="checkbox" />
+                        <img class="ellipse" src="Images/Ellipse 1.png" width="20px" />Richard Chaning
+                        <span class="Asunto">Memorial Clinic</span>
+                        <span class="fecha">
+                            12 April 2014
+                            <i id="segundo" class="material-icons">chevron_right</i>
+                        </span>
+                        </span>
+                    </p>
+                    <div class="email2 hide" id="email2">
+                        <div class="texto">
+                            <h4>Hi Friend!!</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus, tortor ut porta dignissim,
+                                    neque mauris maximus elit, a porta neque velit non neque. Fusce nec orci massa. Etiam metus
+                                    nisi, bibendum et orci non, blandit ultricies arcu. Fusce tempor ullamcorper leo quis sollicitudin.
+                                    Nulla et eros nibh. Etiam fringilla sit amet massa sed vulputate. Donec arcu est, vestibulum
+                                    vitae tempus vel, facilisis in sem. Donec erat lectus, pellentesque sit amet hendrerit in,
+                                    facilisis eu massa.
+                            </p>
+                                <div class="reply">
+                                    <p>REPLY</p>
+                                </div>
+                                <div class="delete" id="delSecond">
+                                    <p>DELETE</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="correos" id="correos3">
+                    <p>
+                        <input type="checkbox" />
+                        <img class="ellipse" src="Images/Ellipse 1.png" width="20px" />Elisabeth Bale
+                        <span class="Asunto">From Connecticut</span>
+                        <span class="fecha">
+                            12 April 2014
+                            <i id="tercero" class="material-icons">chevron_right</i>
+                        </span>
+                        </span>
+                    </p>
+                    <div class="email3 hide" id="email3">
+                        <div class="texto">
+                            <h4>Hi Friend!!</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus, tortor ut porta dignissim,
+                                    neque mauris maximus elit, a porta neque velit non neque. Fusce nec orci massa. Etiam metus
+                                    nisi, bibendum et orci non, blandit ultricies arcu. Fusce tempor ullamcorper leo quis sollicitudin.
+                                    Nulla et eros nibh. Etiam fringilla sit amet massa sed vulputate. Donec arcu est, vestibulum
+                                    vitae tempus vel, facilisis in sem. Donec erat lectus, pellentesque sit amet hendrerit in,
+                                    facilisis eu massa.
+                            </p>
+                                <div class="reply">
+                                    <p>REPLY</p>
+                                </div>
+                                <div class="delete" id="delThird">
+                                    <p>DELETE</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="correos" id="correos4">
+                    <p>
+                        <input type="checkbox" />
+                        <img class="ellipse" src="Images/Ellipse 1.png" width="20px" />Sarah Connor
+                        <span class="Asunto">Cyberdyne Systems</span>
+                        <span class="fecha">
+                            20 June 2013
+                            <i id="cuarto" class="material-icons">chevron_right</i>
+                        </span>
+                        </span>
+                    </p>
+                    <div class="email4 hide" id="email4">
+                        <div class="texto">
+                            <h4>Hi Friend!!</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus, tortor ut porta dignissim,
+                                    neque mauris maximus elit, a porta neque velit non neque. Fusce nec orci massa. Etiam metus
+                                    nisi, bibendum et orci non, blandit ultricies arcu. Fusce tempor ullamcorper leo quis sollicitudin.
+                                    Nulla et eros nibh. Etiam fringilla sit amet massa sed vulputate. Donec arcu est, vestibulum
+                                    vitae tempus vel, facilisis in sem. Donec erat lectus, pellentesque sit amet hendrerit in,
+                                    facilisis eu massa.
+                            </p>
+                                <div class="reply">
+                                    <p>REPLY</p>
+                                </div>
+                                <div class="delete" id="delFourth">
+                                    <p>DELETE</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="correosPrev">
+                    <div class="mensajesPrev">
+                        <p>5 Previously Messages</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="movil">
+        <div class="separador">
+            <div class="leftCalendar">
+                <img src="Images/reminders-calendar.png" />
+                <h2>REMINDERS CALENDAR</h2>
+            </div>
+
+            <div class="rightCalendar">
+                <span class="daily">
+                    <h3>DAILY / WEEKLY / MONTHLY</h2>
+                </span>
+            </div>
+        </div>
+        <div class="contenedorCalen">
+            <div class="calendario">
+                <div class="leftPanel">
+                    <div class="tituloLeft">
+                        <h3>TODAY
+                            <h4>2 JULY / MONDAY</h4>
+                        </h3>
+                    </div>
+                    <div class="telefono">
+                        <i class="material-icons">call</i>
+                        <p>Call Dr. Smith
+                            <br/> 675 557 890</p>
+                    </div>
+                    <div class="ocular">
+                        <div class="titulo">
+                            <i class="material-icons">calendar_today
+                            </i>
+                            <i id="cancel" onclick="deleteCalendar();" class="material-icons">clear</i>
+                            <p>Ocular Test
+                                <br/> Memorial Clinic Miami</p>
+                        </div>
+                        <div class="cuerpo">
+                            <h5>2 JULY 2012
+                                <span class="hora">/14:30</span>
+                            </h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquam mattis nulla, eu rhoncus
+                                lectus. Ut elementum felis vel purus interdum, tincidunt rhoncus nibh mattis. Cras ut gravida
+                                odio, in lobortis nunc. Nullam efficitur nunc et odio elementum vulputate. </p>
+                                <div class="change">
+                                    <p>CHANGE</p>
+                                </div>
+                                <div class="done">
+                                    <p>DONE</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rightPanel">
+                    <div class="tituloRight" id="tituloRight">
+                        <h3>
+                            <span id="calendarTitle">JULY 2014</span>
+                        </h3>
+                    </div>
+                    <div class="calendario">
+                        <table id="calendar" cellpadding="0" cellspacing="0">
+                            <caption></caption>
+                            <thead>
+                                <tr>
+                                    <th>M</th>
+                                    <th>T</th>
+                                    <th>W</th>
+                                    <th>T</th>
+                                    <th>F</th>
+                                    <th>S</th>
+                                    <th>S</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="separador">
+            <div class="leftCalendar">
+                <img src="Images/ties2.png" alt="Circle Of Care" />
+                <h2>CIRCLE OF CARE</h2>
+            </div>
+        </div>
+
+        <div class="contenedorCalen">
+            <div class="circleOfCare">
+                <nav>
+                    <ul>
+                        <li style="width:25%;margin-left:-30px;">
+                            <p>FIND</p>
+                        </li>
+                        <li style="width:50%;border-bottom:3px solid red;margin-left: -5px;">
+                            <p>MY CIRCLE OF CARE</p>
+                        </li>
+                        <li style="width:26%;border-right:0px;">
+                            <p>PENDING</p>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="panelCircle">
+                    <div class="organize">
+                        <p>For organize Drag and Drop in the groups</p>
+                    </div>
+                    <div class="cartas" style="border-left:5px solid red;">
+                        <h4>Francis Fisher Williams</h4>
+                        <p> Graphic Designer</p>
+                        <img src="IMG/senior.png" />
+                        <div class="message">
+                            <p>Send Message</p>
+                        </div>
+                    </div>
+                    <div class="cartas" style="border-left:5px solid rgb(0,217,193);">
+                        <h4>Marie Kraft Smith</h4>
+                        <p> Doctor</p>
+                        <img src="IMG/senior.png" />
+                        <div class="message" style="background-color:rgb(0,217,193);">
+                            <p style="color:black;">Send Message</p>
+                        </div>
+                    </div>
+                    <div class="cartas" style="border-left:5px solid red;">
+                        <h4>Dolores Vidal Taylor</h4>
+                        <p> Comercial</p>
+                        <img src="IMG/senior.png" />
+                        <div class="message">
+                            <p>Send Message</p>
+                        </div>
+                    </div>
+                    <div class="cartas" style="border-left:5px solid red;">
+                        <h4>Robbie Walker Jr.</h4>
+                        <p> CEO NY Memorial</p>
+                        <img src="IMG/senior.png" />
+                        <div class="message">
+                            <p>Send Message</p>
+                        </div>
+                    </div>
+                    <div class="cartas" style="border-left:5px solid rgb(0,217,193);">
+                        <h4>Vanessa Herrera Simons</h4>
+                        <p> Nurse</p>
+                        <img src="IMG/senior.png" />
+                        <div class="message" style="background-color:rgb(0,217,193);">
+                            <p style="color:black;">Send Message</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

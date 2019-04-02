@@ -1,0 +1,268 @@
+@media (max-width : 650px) {
+    .navbar{
+        position: relative;
+    }
+
+    .navbar ul li p {
+        display: none;
+    }
+    .navbar ul li{
+        padding: 50px;
+        margin-right: 2%;
+        display: inline-block;
+        position: absolute;
+        left: -100;
+        top: -47px;  }
+    #dot3{
+        display: none;
+    }
+    #señora{
+        position: absolute;
+        left: -27%;
+        width: 70%;
+        height: 71px;
+        top: 35%;
+    }
+    #logo{
+        width: 200%;
+        margin-left: -10%;
+
+    }
+    #ajustes{
+        padding: 4px;
+        margin-left: 100%;
+
+    }
+    #logout{
+        padding: 0;
+        height: 28;
+        margin-top: 21%;
+        margin-left: 20%;
+
+    }
+    .done p{
+        margin-left: 30%; 
+    }
+    .contenedor{
+        margin-right: 0;
+        margin-left: 6%;
+    }
+    .contenedorCalendario{
+        margin-left: 7%;
+        margin-right: 5%;   
+    }
+    .carta{
+        width: 44%;
+
+    }
+    #fotoMenu{
+        margin-left: 2%;
+        margin-top: 3%;
+        position: absolute;
+    }
+    .carta img{
+        margin-left: 8%;
+        margin-top: 5%;
+        position: absolute;
+    }
+    #logoCarta{
+        width: 43%;
+        position: absolute;
+        left: 2%;
+        top: 0%;
+    }
+    .carta h3{
+        float: right;
+        color: rgb(134, 134, 134);
+        font-family: Arial;
+        text-align: right;
+        top: 52%;
+        right: 4%;
+        font-size: 15px;
+        position: absolute;
+  }
+  .carta .menu {
+    position: absolute;
+    top: 82%;
+    width: 10px;
+    left: 87%;
+}
+    .numero{
+        position: absolute;
+        left: 72%;
+        width: 25px;
+    }
+    .carta p{
+        position: absolute;
+        left: 83%;
+        top: 0%;
+        color: white;
+        font-family: Arial;
+    }
+    .leftCalendar h2 {
+        line-height: 20px;
+        font-size: 20px;
+        margin-left: 12%;
+    }
+    .movil{
+        display: none;
+    }
+    .especial{
+        display: none;
+    }
+    .reply p{
+        float: right;
+        background-color: rgb(0, 218, 191);
+        width: 71px;
+        color: rgb(1, 134, 124);
+        height: 30px;
+        margin-top: 0%;
+        line-height: 225%;
+    }
+    .reply{
+        position: absolute;
+        top: 84%;
+        text-align: center;
+        left: 68%;
+    }
+    .delete{
+        position: absolute;
+        top: 84%;
+        text-align: center;
+        left: 84%;
+    }
+    .delete p{
+        float: right;
+        background-color: rgb(254, 76, 62);
+        width: 71px;
+        color: white;
+        height: 30px;
+        margin-top: 0%;
+        line-height: 225%;
+    }
+    .rojo{
+        left:10%;
+        width: 27%;
+height: 40px;
+    }
+    .panel{
+        border-bottom: 0;
+
+    }
+    .panel ul li{
+        height: 40px;
+        font-size: 17px;
+    }
+
+   .blanco{
+    border: 0px;
+    width: 10%;
+    height: 40px;
+    position: absolute;
+    left: 37%;
+    }
+    .panel nav {
+        position: relative;
+    }
+    li .rojo{
+        width: 27%;
+
+    }
+    ul li .rojo{
+        width: 27%;
+        position: absolute;
+
+    }
+    #checkboxs {
+        width: 8%;
+        margin-top: 2%;
+    }
+
+    .gris{
+        background-color: rgb(230,230,230);
+        position: absolute;
+        left: 47%;
+        height: 40px;
+        width: 10%;
+    }
+    nav ul{
+        padding: 0;
+        position: relative;
+    }
+    nav ul li{
+        position: absolute;
+    }
+    li .rojo p{
+        line-height: 12px;
+    margin-top: 20%;
+    }
+    #lupa{
+        display: none;
+    }
+    #buscador{
+        position: absolute;
+        margin-top: 2%;
+        right: 8%;
+    }
+    #buscador input{
+        border: 1px solid grey;
+
+    }
+    .asunto{
+        margin-left: 2%;
+
+    }
+    .texto{
+        height: 225px;
+        position: relative;
+        overflow: hidden; 
+
+    }
+    .texto p{
+        font-size: 11px;
+    }
+
+.change{
+    width: 70px;
+    height: 27px;
+    background-color: rgb(0,218,191);
+    position: absolute;
+    margin-bottom: 3%;
+    margin-right: 5%;
+    top: 86%;
+    left: 65%;
+    }
+    
+ .done{
+    width: 70px;
+    height: 27px;
+    background-color: rgb(255, 80, 60);
+    margin-bottom: 3%;
+    top: 86%;
+    position: absolute;
+    left: 80%;
+    }
+ .done p{
+        margin-left: 20%;
+        margin-top: 10%;
+        color:white;
+    }
+    .correos p{
+        margin-left: 1%;
+        font-size: 15px;
+    }
+    .mensajesPrev{
+        color: grey;
+        float: right;
+        margin-right: 9%;
+        font-size: 14px;
+        width: 30%;
+
+    }
+    .break-word {
+   }
+    .correosPrev{
+        border-bottom: 1px solid black;
+        
+    }
+}

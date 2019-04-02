@@ -1,0 +1,789 @@
+
+.header{
+    width: 100%;
+    height: 85px;
+}
+.header #logo-header{
+    float:left;
+    margin-top: 1%;
+    width: 30%;
+}
+#logo{
+    margin-top:2%;
+}
+.navbar{
+    float: right;
+    height: 100%;
+    width: 50%;
+    margin-right: 0;
+}
+.navbar ul {
+    margin-right: 2%;
+    padding: 0;
+    list-style: none;
+    padding-right: 20px;
+    float: right;
+
+}
+.navbar ul li {
+    display: inline-block;
+    padding: 0px 18px;
+
+    line-height: 80px;
+}
+.navbar ul li p{
+    font-family: Arial;
+    color: black;
+    line-height: 3;
+    margin-left: 12;
+
+    float: right;
+}
+.navbar ul li img{
+    float:left;
+
+}
+.gris{
+    background-color:rgb(230,230,230);
+    width: 6%;
+}
+#dot3{
+    width:6;
+    padding:30;
+}
+
+.contenedor{
+    margin-left: 15%;
+    margin-right: 15%;
+    overflow: hidden;
+    margin-top: 3%;
+}
+.contenedorCalen{
+    margin-left: 15%;
+    margin-right: 15%;
+    overflow: hidden;
+    border: 1px solid grey;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    height: 670px;
+}
+.botoncito p{
+    color: red;
+}
+.carta{
+    width: 337px;
+    height: 145px;
+    background-color:rgb(244,245,247);
+    margin-bottom: 5%;
+    margin-right: 5%;
+    float: left;
+    border: 1px solid grey;
+    position: relative; 
+}
+.carta .points{
+    width: 165px;
+    height: 35px;
+    background-color: rgb(254, 76, 62);
+    position: absolute;
+    right: 0%;
+}
+#lupa{
+    float: right;
+}
+.carta .points h5{
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    margin-top: 7%;
+}
+ #buscador{
+    float: right;
+    border: 0px;
+    margin-top: 1%;
+ }
+ #buscador input{
+    width:120px;
+ }
+.carta h3{
+    float: right;
+    color:rgb(134, 134, 134);
+    font-family: Arial;
+    text-align: right;
+    margin-left: 46%;
+    position: absolute;
+    top: 40%;
+    right: 2%;
+}
+#fotoMenu{
+    margin-left: 3%;
+    margin-top: 5%;
+    position: absolute;
+}
+.carta img{
+    margin-left: 3%;
+    margin-top: 5%;
+    position: absolute;
+}
+
+.separador{
+    width: 100%;
+    height: 55px;
+    background-color: rgb(223,224,229);
+    color: rgb(134, 134, 134);
+    font-family: Arial;
+    position: relative;
+}
+.separador h2{
+    line-height: 50px;
+    position: absolute;
+    left:7%;
+
+}
+.separador img{
+    float: left;
+    height: 100%;
+    margin-right: 10%;
+}
+.contenedorCalendario{
+    margin-left: 15%;
+    margin-right: 15%;
+    overflow: hidden;
+    margin-top: 3%;
+}
+.mensajes p input{
+    margin-right: 5%;
+}
+.panel{
+    border:1px solid grey;
+    border-top: 0;
+    width: 99%;
+    margin-bottom: 5%;
+    position: relative;
+}
+.panel ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 20px;
+    font-family: Arial;
+}
+.panel ul li{
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    margin: 0;
+    height: 100%;
+}
+#checkboxs{
+    width: 6%;
+}
+.panel ul li p{
+    line-height: 50%;
+
+}
+#checkboxs{
+    border: 0px;
+}
+.rojo{
+    background-color: rgb(255,81,61);
+    border-left:0;
+    width: 15%;
+
+    color: white;
+}
+.blanco{
+    color: rgb(103, 103, 103);
+    width: 6%;
+
+}
+.titular{
+    float:right;
+
+}
+.panel nav{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    width: 100%;
+    height: 40px;
+}
+
+.separador h3{
+    float: right;
+    line-height: 50px;
+
+}
+.ellipse{
+    margin-right:2%;
+}
+.mensajes p{
+    font-family:Arial;
+    font-weight: bold;
+    margin-left: 2%;
+}
+.asunto{
+    margin-left: 10%;
+    color: grey;
+}
+.fecha{
+   color: grey;
+   float: right;
+   margin-right: 2%;
+}
+.mensajesPrev{
+    color: grey;
+    float: right;
+    /* left: 80%; */
+    margin-right: 2%;
+    background-color: rgb(230, 230, 230);
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+    text-align: center;
+    top: 90%;
+    width: 17%;
+    height: 100%;
+
+}
+#cancel:hover{
+    cursor: pointer;
+}
+#calendar{
+    width: 89%;
+    height: 64%;
+    margin-left: 7%;
+}
+#calendar tbody{
+    text-align: center;
+}
+#calendar tr{
+    height: 55px;
+    font-size: 25px;
+    color: rgb(120,120,120);
+}
+.mensajesPrev p{
+    width: 100%;
+    /* height: 5%; */
+    /* padding: 3%; */
+    margin-top: 7%;
+}
+.tituloRight h3 #left:hover{
+    cursor: pointer;
+}
+.tituloRight h3 #right:hover{
+    cursor: pointer;
+}
+.daily{
+    left: 85%;
+    height: 100%;
+}
+ .correos i:hover{
+    cursor: pointer;
+}
+.change:hover{
+    cursor: pointer;
+}
+.done:hover{
+    cursor: pointer;
+}
+.mensajes{
+}
+.texto{
+    margin-top: 1%;
+    font-family: Arial;
+    background-color: rgb(249, 249 ,249);
+    padding: 2%;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    color: rgb(101, 101, 101);
+    height: 200px;
+    position: relative;
+}
+.texto h4{
+    margin-top: 0;
+    font-size: 25px;
+    margin-bottom: 0;
+
+}
+.textoOculto{
+    margin-top: 1%;
+    font-family: Arial;
+    background-color: rgb(249, 249 ,249);
+    padding: 2%;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    color: rgb(101, 101, 101);
+    height: 200px;
+    position: relative;
+    display: hidden;
+}
+.textoOculto h4{
+    margin-top: 0;
+    font-size: 25px;
+    margin-bottom: 0;
+    display: hidden;
+}
+.correos{
+    border-bottom: 1px solid grey;
+}
+.correos p{
+    margin-left:2%;
+}
+.correosPrev{
+    height: 41px;
+
+}
+.prevMens{
+    background-color: rgb(233, 233, 233);
+    float: right;
+    width: 20%;
+    margin-top: 1%;
+    margin-right: 2%;
+    text-align: center;
+    border:1px solid grey;
+    color: grey;
+}
+.botones{
+    text-align: center;
+    font-family: Arial;
+    margin-right: 5%;
+    position: absolute;
+    float: right;
+    width: 20%;
+    height: 10%;
+    right: 0;
+}
+
+ .change{
+    width: 94px;
+    height: 35px;
+    background-color: rgb(0,218,191);
+    /* float: left; */
+    /* margin-bottom: 3%; */
+    position: absolute;
+    margin-right: 5%;
+    left: 35%;
+    bottom: 4%;
+}
+.change p{
+    text-align: center;
+    font-family: Arial;
+    margin-top: 10%;
+    color: rgb(0,140,120);
+}
+
+ .done h5{
+    font-family: Arial;
+    color: rgb(255, 80, 60);
+    text-align: center;
+    margin-top: 10%;
+
+}
+.reply p{
+    float: right;
+    background-color: rgb(0, 218, 191);
+    width: 80px;
+    color: rgb(1, 134, 124);
+    height: 35px;
+    margin-top: 0%;
+    line-height: 225%;
+
+}
+.delete p{
+    float: right;
+    background-color: rgb(254, 76, 62);
+    width: 80px;
+    color: white;
+    height: 35px;
+    margin-top: 0%;
+    line-height: 225%;
+
+}
+.fecha p{
+    background-color: rgb(230, 230, 230);
+    width: 100%;
+    height: 5%;
+    border: 1px solid grey;
+    padding: 3%;
+    margin-top: 7%;
+}
+.leftCalendar{
+    width: 35%;
+    float: left;
+    line-height: 20px;
+}
+.rightCalendar{
+    position: relative;
+    width: 65%;
+    line-height: 20px;
+    height: 55px;
+    float: right;
+
+}
+
+.leftCalendar h2{
+    line-height: 20px;
+}
+.rightCalendar h2{
+    line-height: 20px;
+}
+.rightCalendar h3{
+    position: absolute;
+    left: 56%;
+    bottom: -34%;
+}
+hr{
+    margin-top: 1%;
+    color: grey;
+}
+.calendario{
+    font-family: Arial;
+    float: right;
+    margin-top: 2%;
+    width: 100%;
+}
+.leftPanel{
+    width: 50%;
+    text-align: center;
+    float:left;
+
+}
+.leftPanel h3{
+    color: grey;
+    font-size: 30px;
+    margin-bottom: -20px;
+    margin-top: 2%;
+
+
+}
+.leftPanel h4{
+    color: rgb(150,150,150);
+    font-size: 25px;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.rightPanel{
+    width:50%;
+    text-align: center;
+    float: right;
+}
+.rightPanel h3{
+    color:grey;
+    font-size: 30px;
+    margin-top: 2%;
+
+}
+.telefono{
+    background-color: rgb(255, 80, 60);
+    color: white;
+    width: 98%;
+    margin-top: -2%;
+    margin-left: 2%;
+    height: 75px;
+}
+.numero{
+    position: absolute;
+    left: 80%;
+}
+.carta p{
+    position: absolute;
+    left: 86%;
+    top: 7%;
+    color: white;
+    font-family: Arial;
+}
+.carta .menu{
+    position: absolute;
+    top: 74%;
+    left: 92%;
+}
+.telefono p{
+    margin-top: 2%;
+    line-height: 150%;
+    font-size: 25px;
+    font-family: Arial;   
+    margin-left: 12%;
+    text-align: left;
+
+}
+.telefono i{
+    font-size: 50px;
+    float: left;
+    margin-top: 2%;
+    margin-right: 5%;
+    margin-left: 2%;
+
+}
+.titulo{
+    height: 75px;
+    background-color: rgb(255, 80, 60);
+    margin-bottom: 0;
+    width: 98%;
+}
+.ocular{
+    width: 100%;
+    float: left;
+    font-family: Arial;
+    margin-left: 2%;
+}
+.ocular i{
+    font-size: 50px;
+    float: left;
+    margin-right: 5%;
+    margin-top: 2%;
+    color:white;
+    margin-left: 2%;
+}
+.titulo p{
+    font-size: 25px;
+    font-family: Arial;
+    line-height: 150%;
+    margin-left: 12%;
+    color: white;
+    text-align: left;
+}
+.cuerpo{
+    background-color:rgb(230,230,230);
+    float: left;
+    position: relative;
+    width: 98%;
+    height: 40%;
+
+
+}
+.hora{
+    color: rgb(106,106,106);
+    font-size: 30px;
+}
+.cuerpo h5{
+    font-size: 25px;
+    color: rgb(120,120,120);
+    margin-top: 2%;
+    margin-bottom: 0;
+
+}
+.cuerpo p{
+    margin-left:6%;
+    margin-right: 6%;
+    text-align: left;
+    font-family: Arial;
+    color:rgb(130,130,130);
+}
+.cuerpo p{
+    font-size: 18px;
+
+}
+.reply{
+    position: absolute;
+    top: 80%;
+    text-align: center;
+    left: 80%;
+}
+.delete{
+    position: absolute;
+    top: 80%;
+    left: 88%;
+    text-align: center;
+}
+.done{
+    width: 94px;
+    height: 35px;
+    background-color: rgb(255,81,61);
+    /* float: right; */
+    /* margin-bottom: 3%; */
+    position: absolute;
+    color: white;
+    left: 55%;
+    bottom: 4%;
+
+    text-align: center;
+}
+
+.change p{
+    text-align: center;
+    font-family: Arial;
+    margin-top: 10%;
+    color: rgb(0,140,120);
+    font-size: 15px;
+
+}
+
+.done p{
+    text-align: center;
+    font-family: Arial;
+    margin-top: 10%;
+    color:white;
+    font-size: 15px;
+
+
+}
+ .done p{
+    margin-top: 10%;
+}
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color:rgb(0,218,191);
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  
+  .weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+  }
+  
+  .days {
+    height: 72%;
+    padding: 10px 0;
+    margin: 0;
+    margin-left: 3%;
+
+  }
+  
+  .days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:20px;
+    color: #777;
+    line-height: 50px;
+    float: left;
+  }
+  
+  .days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+  }
+
+  .tituloLeft{
+      height: 100px;
+  }
+  .tituloLeft h3{
+      font-weight: bold;
+  }
+  .tituloRight{
+      height: 100px;
+      margin-left: 9%;
+      margin-right: 8%;
+      margin-top: 2%;
+  }
+  #calendar thead{
+    background-color: rgb(0, 218, 191);
+  }
+  .tituloRight h3{
+      font-weight: bold;
+  }
+  .tituloRight h3 i{
+    font-size:40px;
+  }
+  .circleOfCare ul li{
+    text-align: center;
+    width: 33%;
+    display: inline-block;
+    font-size: 18px;
+    margin: 0;
+    height: 40px;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    font-family: Arial;
+    color: rgb(157,159,158);
+  }
+  .circleOfCare nav ul{
+      margin-top:0;
+      margin-bottom: 0;
+
+  }
+  .circleOfCare .cartas{
+      width: 294px;
+      height: 154px;
+      background-color:white;
+      border: 1px solid grey; 
+      font-family: Arial;
+      text-align: center;
+      position: relative;
+      float: left;
+      margin-left: 15%;
+      margin-top: 5%;
+      margin-bottom: -3%;
+
+    }
+ .panelCircle{
+      background-color: rgb(249, 243, 243);
+      width: 100%;
+      height: 100%;
+      position: relative;
+
+  }
+  .circleOfCare .cartas h4{
+      position: absolute;
+      color: rgb(154, 154, 154);
+      right: 10%;
+  }
+  .circleOfCare .cartas p{
+      position: absolute;
+      right: 10%;
+      top: 20%;
+      color: rgb(154, 154, 154);
+
+  }
+  .circleOfCare .cartas img{
+      position: absolute;
+      width: 25%;
+      left: 10%;
+      top: 37%;
+      
+  }
+  .circleOfCare .cartas .message{
+      width: 150px;
+      height: 40px;
+      position: absolute;
+      background-color: rgb(254, 76, 62);
+      top: 74%;
+      left: 49%;
+  }
+  .circleOfCare .cartas .message p{
+      color:white;
+      text-align: center;
+      margin-top: 5%;
+
+  }
+  .panelCircle .organize p{
+      text-align: center;
+      margin-top: 10px;
+      font-family: Arial;
+    }
+   .panelCircle .organize{
+       background-color: rgb(230, 230, 230);
+       width:350px;
+       height: 33px;
+       position: absolute;
+       left: 35%; 
+       top: 2%;
+       margin-bottom: 20%;
+   }
+    #ajustes{
+        width:30;
+        padding:30;
+    }
+    #logout{
+        padding:30;
+    }
+    #logoCarta{
+        margin-left: 3%;
+    margin-top: 5%;
+    position: absolute;
+    }
+
+    .hide{
+        display: none;
+    }
+    #cancel{
+        float: right;
+        margin-top: 0%;
+        font-size: 30px;
+        margin-right: 2%;
+
+    }
