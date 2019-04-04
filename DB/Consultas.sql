@@ -39,11 +39,12 @@ GROUP BY mercado.merccodi, mercado.mercdesc) ,
         AND mercado.mercficticio = 0
         AND estadoreserva.esrevisibilidad = 0
     GROUP BY reservas.merccodi)
-SELECT tr.NombreMercado,tr.TotalReservas,tr.ImporteReservas, ca.ReservasCanceladas, ca.ImporteCanceladas , me.MediaNoches, me.MediaAdultos,me.MediaNiños, ho.CodigoHotel
+SELECT tr.NombreMercado,tr.TotalReservas,tr.ImporteReservas, ca.ReservasCanceladas, ca.ImporteCanceladas , me.MediaNoches, me.MediaAdultos,me.MediaNiños, centros.centnom as HotelMasReservado
 FROM totalReservas tr 
     INNER JOIN CANCELADOS ca ON tr.idMercado = ca.idMercado
     INNER JOIN MEDIA me ON tr.idMercado = me.codigoMercado
-    INNER JOIN HOTEL ho ON tr.idMercado = ho.MercCodi;
+    INNER JOIN HOTEL ho ON tr.idMercado = ho.MercCodi
+    INNER JOIN VOLGC.centros ON ho.CodigoHotel = centros.centcodi;
 
 -- Total de reservas y su importe
 SELECT mercado.mercdesc,
@@ -93,4 +94,4 @@ GROUP BY reservas.merccodi, mercado.mercdesc;
     
  
 
-   
+   SELECT * FROM volgc.centros;
