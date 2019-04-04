@@ -7,6 +7,8 @@ SELECT reservas.resecodi
            AS Noches,
        volcp.cripto.decript (reservas.resenomcli)
            AS NombreCliente,
+       volcp.cripto.decript (reservas.reseapellidos)
+           AS ApellidoCliente,
        volcp.cripto.decript (reservas.reseemail)
            AS EmailCliente,
        reservas.resenumhab
@@ -19,7 +21,7 @@ SELECT reservas.resecodi
            AS NombreMercado,
        estadoreserva.esredesc
            AS EstadoReserva,
-       agencia.agennom
+           entidad.enticomenom
            AS Agencia
   FROM volcp.reservas
        INNER JOIN volgc.mercado ON mercado.merccodi = reservas.merccodi
@@ -27,7 +29,10 @@ SELECT reservas.resecodi
            ON reservas.resecodi = reservashabitacion.resecodi
        INNER JOIN volcp.estadoreserva
            ON reservas.esrecodi = estadoreserva.esrecodi
-       INNER JOIN volcp.agencia ON reservas.agencodi = agencia.agencodi
- WHERE     reservas.resefecha BETWEEN '10/04/2017' AND '11/04/2017'
+       LEFT JOIN volcp.entidad ON reservas.agencodi = entidad.enticodi
+ WHERE reservas.resefecha BETWEEN '10/04/2017' AND '11/04/2017'
        AND reservas.sogecodi = 1
-       AND reservas.centcodi = 3;
+       AND reservas.centcodi = 3
+       AND mercado.mercficticio = 0
+       AND estadoreserva.esrevisibilidad = 0;
+       
